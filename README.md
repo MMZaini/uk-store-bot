@@ -10,18 +10,19 @@ A UK store bot for any items online from Argos, Smyths, AO and John Lewis
   
 # required modules
   - Selenium - installable by typing 'pip install selenium' into the command prompt. Make sure you install everything above, in the requirements.
-  -- If you dont install selenium, the program will NOT work
+  -- If you dont install selenium, the program will NOT work --
   
 # instructions
   1. Install the included, zipped, python program - install automatically by clicking https://github.com/MMZaini/uk-store-bot/archive/main.zip - it should be in your downloads folder, you can drag it over to your desktop or anywhere else if you'd like.
   2. Locate and unzip 'uk-store-bot-main.zip'. Then, using winrar right click the zip and select 'Extract Here'
   3. Open the new folder that can be found in the same directory that you have the zip in when unzipping.
   4. You can now delete the zip since its no longer needed but make sure you keep the folder.
-  5. Open the folder and copy the chromedriver you installed to the folders, you want to copy it into the 'digital ps5 bots' folder and into the 'disk ps5 bots'. Then double click the chromedriver and you'll see a little command prompt looking window come up. (make sure you open the chromedriver which is in the same folder as whichever store you want to bot) It'll say something like Starting ChromeDriver, Only local connections are allowed and ChromeDriver was started successfully. If you see somehting like this on the window you've comleted the hard part.
-  6. Minimise the chromedriver into your taskbar and double click the file for whichever store you want to bot. It'll then bring up another command prompt looking window which should say something like 'DevTools listening'. Then It'll open chrome and depending on the performance (speed) of your computer, it'll refresh the page constantly until the ps5 is avaliable for to be added to cart and purchasesd, when it is avaliable, it will add to cart and take you straight to the checkout page and make a beep sound to alert you to the availbility of the item. Then you'd just checkout normally.
+  5. Open the folder and copy the chromedriver you installed to the folders, you want to copy it into the 'bots' folder.
+  6. Then double click the chromedriver and you'll see a little command prompt looking window come up. It'll say something like Starting ChromeDriver, Only local connections are allowed and ChromeDriver was started successfully. If you see somehting like this on the window you've comleted the hard part.
+  7. Minimise the chromedriver into your taskbar and double click the file for whichever store you want to bot. Paste in the link of the item you want to bot (it must be an item from the store the file is name (eg: an Argos link for argos.py and a john lewis link for John Lewis.py)) It'll then bring up another command prompt looking window which should say something like 'DevTools listening'. Then It'll open chrome and depending on the performance (speed) of your computer, it'll refresh the page constantly until the item is avaliable for to be added to cart and purchasesd, when it is avaliable, it will add to cart and take you straight to the checkout page and make a beep sound to alert you to the availbility of the item. Then you'd just checkout normally.
   
 # things to keep in mind
-  - Smyths and Argos require you to either login or create an account to make a purchase, so when you first open the program, i'd recommend opening a new tab in the same window, typing in "smyths/argos create account" or "smyths/argos login" if you already have an account and login/create an account, make sure when doing this you select 'save password' or 'autosave details'. This is much quicker than having to login everytime you want to purchase an item, especially when the item is in high demand like the ps5 because it may become sold out before you're able to check out.  
+  - Smyths and Argos can require you to either login or create an account to make a purchase, so when you first open the program, i'd recommend opening a new tab in the same window, typing in "smyths/argos create account" or "smyths/argos login" if you already have an account and login/create an account, make sure when doing this you select 'save password' or 'autosave details'. This is much quicker than having to login everytime you want to purchase an item, especially when the item is in high demand because it may become sold out before you're able to check out.  
 
 # common errors
   - "chromedriver.exe' executable needs to be in PATH." -- You can fix this error by closing chromedriver if you have it open, then find where the chromedriver.exe and put it into your desktop. Then put the .py file for whichever store you want onto your desktop too. then double click the chromedriver. Then double click the .py and it should work
@@ -33,7 +34,7 @@ A UK store bot for any items online from Argos, Smyths, AO and John Lewis
   
   1. Open the files of the bots you want to have open at the same time in a code editor
   2. find where it says "options.add_argument" then check the whole line and go to where it says 'bot'  
-  3. change the ps5 to something else, it needs to be different for each file for it to work. (you may need  to put each file in a seperate folder and copy chromedriver into each folder and run it from each folder if its still not working)
+  3. change the bot to something else, it needs to be different for each file for it to work. (you may need  to put each file in a seperate folder and copy chromedriver into each folder and run it from each folder if its still not working)
   - You can really easily change the item you want to bot, here are some instructions on how to do it. (you only need common sense for this and make sure you read the license before distrubuting it!)
   
 
