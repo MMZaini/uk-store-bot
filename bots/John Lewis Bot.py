@@ -1,12 +1,10 @@
+# modules
 import time
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 import winsound
 
 item = input("Input John Lewis link for item you want to bot") # Variable for the item wanted
-
-print("This program comes with ABSOLUTELY NO WARRANTY; for details check included license. This is free software, and you are welcome to redistribute it under certain conditions; check license for conditions.")
-
 options = Options()
 options.add_argument("user-data-dir=C:\\Users\\bot\\AppData\\Local\\Google\\Chrome\\User Data")driver = webdriver.Chrome('chromedriver.exe', options=options)
 driver.get(item)
